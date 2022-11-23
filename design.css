@@ -126,3 +126,8 @@ div.char-bg {
     padding: 5px 10px 5px;
 }
 
+div.hobbies {
+    background-color: #024d3c;
+    color: #e6e8e6;
+    border-radius: 20px;
+}
