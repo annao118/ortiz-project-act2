@@ -4,8 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 
 body {
-    background-image: url(src/background-image.png);
-    background-repeat: no-repeat;
+    background: url(src/bg2.gif);
     background-size:cover;
 }
 
@@ -14,6 +13,7 @@ body {
     color: #e6e8e6;
     border-radius: 20px;
 }
+
 a.link:link, a.link:visited, a.link:active {
     text-decoration: none;
     color:white;
@@ -96,11 +96,21 @@ img.qatar {
     object-fit: cover;
     border-radius: 50%;
     display: inline-block;
+    flex-basis: 40%;
+}
+
+div.all {
+    text-align: center;
 }
 
 div.hobbi {
-    text-align: center;
     color: #e6e8e6;
+    font-family: 'Pacifico', cursive;
+    font-size: x-large;
+    background-color: #27b9b4;
+    border-radius: 25px 40px;
+    display: inline-block;
+    padding: 5px 10px 5px;
 
 }
 div.story {
@@ -109,3 +119,10 @@ div.story {
     background-color: #024d3c;
     border-radius: 20px;
 }
+
+div.char-bg {
+    color: #e6e8e6;
+    background-color: #9D72FF;
+    padding: 5px 10px 5px;
+}
+
